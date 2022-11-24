@@ -1,0 +1,27 @@
+
+
+:root {
+    /* colors */
+    --color-white: #FFFFFF;
+    --color-dark: #000000;
+    --color-dark-gold: #C99F52;
+    --color-light-gold: #F2D88A;
+
+    /* fonts */
+    --font-size-mobile-h1: 3.6rem;
+    --font-size-mobile-h2: 2rem;
+    --font-size-mobile-h3: 1.4rem;
+    --font-size-mobile-p1: 1.6rem;
+    --font-size-mobile-p2: 1.2rem;
+    --font-size-desktop-h1: 6.4rem;
+    --font-size-desktop-h2: 4rem;
+    --font-size-desktop-h3: 2.4rem;
+    --font-size-desktop-p1: 2.8rem;
+    --font-size-desktop-p2: 2rem;
+
+    /* shadows & borders*/
+    --shadow-cards: 0px 1px 28px 5px rgba(172, 144, 0, 0.1);
+    --border-cards: 18px;
+
+
+}
