@@ -33,9 +33,9 @@
   /* fonts */
   --font-size-mobile-h1: 3.6rem;
   --font-size-mobile-h2: 2rem;
-  --font-size-mobile-h3: 1.4rem;
+  --font-size-mobile-h3: 1.8rem;
   --font-size-mobile-p1: 2rem;
-  --font-size-mobile-p2: 1.2rem;
+  --font-size-mobile-p2: 1.8rem;
   --font-size-desktop-h1: 6.4rem;
   --font-size-desktop-h2: 4rem;
   --font-size-desktop-h3: 2.4rem;
@@ -43,7 +43,7 @@
   --font-size-desktop-p2: 2rem;
 
   /* shadows & borders*/
-  --shadow-cards: 0px 1px 28px 5px rgba(172, 144, 0, 0.1);
+  --shadow-cards: 0px 1px 16px 3px rgba(104, 88, 1, 0.16);
   --border-cards: 18px;
 }
 
@@ -92,6 +92,10 @@ p {
   font-size: var(--font-size-mobile-p1);
 }
 
+.p2__text {
+  font-size: var(--font-size-mobile-p2);
+}
+
 @media (min-width: 992px) {
   .section__container {
     padding: 0 16rem;
@@ -112,6 +116,10 @@ p {
   p {
     font-family: "Regular-Samsung One";
     font-size: var(--font-size-desktop-p1);
+  }
+
+  .p2__text {
+    font-size: var(--font-size-desktop-p2);
   }
 }
 
@@ -236,4 +244,35 @@ p {
     bottom: 3rem;
     transform: rotate(-49deg);
   }
+}
+
+/* smartphones, tablets and wearable section */
+.card {
+  border-radius: 18px;
+  box-shadow: var(--shadow-cards);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.card-img__container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bigimg_card {
+  transform: rotate(35deg) translate(-1.4rem, 4rem);
+}
+
+.hidden__img {
+  display: none;
+}
+
+.card__text {
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
 }
