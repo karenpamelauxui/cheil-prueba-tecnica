@@ -292,7 +292,7 @@ p {
 }
 
 .card:hover .bigimg_card {
-  transform: translate(0, 62rem) rotate(0) scale(1.4);
+  transform: translate(0, 84rem) rotate(0) scale(1.4);
 }
 
 .card:hover .hover__bkg {
@@ -326,7 +326,7 @@ p {
 
 .hidden__img {
   position: absolute;
-  top: -50rem;
+  top: -70rem;
   transform: translateX(22rem) rotate(35deg);
 }
 
@@ -366,7 +366,7 @@ p {
 }
 
 .little__card:hover .little__img {
-  transform: translate(2rem, 42rem) rotate(0) scale(1.4);
+  transform: translate(2rem, 60rem) rotate(0) scale(1.4);
 }
 
 .little__card:hover .hover__bkg {
@@ -385,7 +385,7 @@ p {
 .hidden__little-img {
   width: 40%;
   position: absolute;
-  top: -32rem;
+  top: -52rem;
   transform: translateX(22rem) rotate(35deg);
   transition: all 0.6s ease-in-out;
 }
